@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+header{
+    background:#0077ff;
+    color:white;
+    padding:30px;
+}
+
+.container{
+    margin:50px auto;
+}
+
+button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    background:#28a745;
+    color:white;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d7d34;
+}
+
+#message{
+    margin-top:20px;
+    color:#0077ff;
+}
+
+footer{
+    margin-top:60px;
+    background:#222;
+    color:white;
+    padding:20px;
+}
