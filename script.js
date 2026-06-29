@@ -16,3 +16,12 @@ function changeText() {
     }
 
 }
+function changeText(){
+
+    let today = new Date();
+
+    document.getElementById("message").innerHTML =
+    "Today's Date: " + today.toDateString() +
+    "<br>Current Time: " + today.toLocaleTimeString();
+
+}
